@@ -1,0 +1,100 @@
+/* start reset.css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset.css */
+
+.clear{
+	clear: both;
+}
+.hide_me{
+	display: none;
+}
+.container{
+	width: 800px;
+	margin: 30px auto 0;
+}
+.work_area{
+	float: left;
+	width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.applications_div{
+	float: left;
+	width: 200px;
+	border: 1px solid #000;
+	margin-left: 90px;
+}
+.applications_div img{
+	margin: 15px;
+	cursor: pointer;
+}
+.applic_new_el_div {
+    border: 1px dashed #008000;
+    height: 128px;
+    width: 128px;
+    position: absolute;
+    z-index: 1000;
+}
+.applic_new_el {
+    position: absolute;
+}
+.ui-resizable-handle {
+	background: #f5dc58;
+	border: 1px solid #FFF;
+	z-index: 2;
+}
+.work_area .ui-resizable{
+	position: absolute;
+}
+.close_applic {
+    background: url("../images/load_foto_x.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: right;
+    height: 15px;
+    position: relative;
+    width: 15px;
+    z-index: 2000;
+}
+
